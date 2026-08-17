@@ -10,6 +10,12 @@ Implied volatility is the single most important quantity in options trading. It 
 
 This project implements the full pipeline from raw market data to interactive surface visualisation, demonstrating options pricing theory, numerical methods, and data engineering in a single codebase.
 
+## Screenshots
+
+![Dashboard](dashboard.png)
+
+![Volatility Smile](smile.png)
+
 ## How It Works
 
 The pipeline has four stages:
