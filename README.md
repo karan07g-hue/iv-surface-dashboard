@@ -1,4 +1,3 @@
-cat > README.md << 'ENDOFFILE'
 # Implied Volatility Surface Dashboard
 
 An interactive Python dashboard that constructs implied volatility surfaces from live options market data. It fetches real-time options chains, inverts the Black-Scholes pricing model using numerical root-finding to extract implied volatility at every available strike and expiry, and renders the result as a rotatable 3D surface and 2D smile cross-sections in a Streamlit web interface.
